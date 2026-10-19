@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Production and local build output
+dist/
+*.tsbuildinfo
+.vite/
+coverage/
+playwright-report/
+test-results/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+!.env.*.example
+.aws/
+.ssh/
+.secrets/
+secrets/
+credentials*.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs and local caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.eslintcache
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local screenshots
+/ngo-home-*.png
+/ngo-gallery-*.png
+
+# Original source copies: production-ready copies are kept in public/assets/
+/image.png
+/915efc8c-c0f2-49e6-b630-79e26eb016a6-1.jpg
+/Ambi-1-1.jpg
+/b2e379ec-c655-4594-9e33-ec9870b24b7b-1.jpg
+/DSC01015-1-1024x768.jpg
+/DSC01058-1-1024x768.jpg
+/IMG_8230-1024x683.jpg
+/Sports-1.jpg
